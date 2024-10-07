@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#orrery-container {
+    position: relative;
+    text-align: center;
+}
+
+#orrery {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #111;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #444;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
